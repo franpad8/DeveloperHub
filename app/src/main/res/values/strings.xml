@@ -14,6 +14,7 @@
     <string name="title_activity_dispatch">DevHub</string>
     <string name="title_activity_courses">CoursesActivity</string>
     <string name="title_activity_videos_and_comments">VideosAndCommentsActivity</string>
+    <string name="error_restart">Error: Please restart the app.</string>
 
 
 </resources>
