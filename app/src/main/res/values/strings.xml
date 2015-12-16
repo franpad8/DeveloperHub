@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">DeveloperHub</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Configuración</string>
+    <string name="action_logout">Cerrar Sesión</string>
+    <string name="toast_logout">Cierre de sesión exitoso</string>
+    <string name="toast_login">Inicio de sesión exitoso</string>
+    <string name="title_activity_sign_up_or_login">DevHub</string>
+    <string name="title_button_login">"Acceder"</string>
+    <string name="title_activity_register">Registro</string>
+    <string name="title_button_register">"Registrarse"</string>
+    <string name="title_activity_categories">Categorías</string>
+    <string name="title_activity_dispatch">DevHub</string>
+    <string name="title_activity_courses">CoursesActivity</string>
+    <string name="title_activity_videos_and_comments">VideosAndCommentsActivity</string>
+
+
+</resources>

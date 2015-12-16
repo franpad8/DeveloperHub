@@ -1,0 +1,18 @@
+ <resources>
+     <color name="colorPrimaryLight">#D64A20</color>
+     <color name="colorPrimary">#E62117</color>
+     <color name="colorPrimaryDark">#C31C13</color>
+     <color name="colorHelperLogin">@color/colorPrimary</color>
+
+     <color name="colorWhite">#FFFFFF</color>
+
+     <color name="colorSecundary">@color/material_blue_grey_800</color>
+     <color name="colorSecundaryBlack">@color/material_blue_grey_900</color>
+
+     <color name="windowBackgroundColor">@color/material_blue_grey_900</color>
+
+     <!-- For the sliding tabs -->
+     <color name="tabsScrollColor">#8a140e</color>
+ </resources>
+
+

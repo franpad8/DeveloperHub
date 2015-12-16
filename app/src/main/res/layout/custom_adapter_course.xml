@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:background="@color/windowBackgroundColor"
+    android:orientation="horizontal">
+
+    <com.parse.ParseImageView
+        android:id="@+id/imageViewCoursePhoto"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp" />
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+        
+        <TextView
+            android:id="@+id/textViewCourseTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Course Title"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="15dp"
+            android:paddingRight="5dp"
+            android:textColor="@color/colorWhite"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <TextView
+            android:id="@+id/textViewCourseDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Course Title"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:paddingRight="5dp"
+            android:textColor="@color/colorWhite"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        
+
+    </LinearLayout>
+
+</LinearLayout>

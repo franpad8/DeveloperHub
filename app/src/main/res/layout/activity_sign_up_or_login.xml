@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/windowBackgroundColor"
+    tools:context="android.muzerk20.developerhub.Activities.SignUpOrLoginActivity">
+
+    <EditText
+        android:id="@+id/editTextLoginEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:ems="10"
+        android:layout_marginTop="175dp"
+        android:layout_marginLeft="30dp"
+        android:drawableLeft="@drawable/ic_email"
+        />
+
+    <EditText
+        android:id="@+id/editTextLoginPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Contraseña"
+        android:ems="10"
+        android:layout_below="@+id/editTextLoginEmail"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:drawableLeft="@drawable/ic_password"
+        />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="340dp"
+        android:layout_height="65dp"
+        android:text="@string/title_button_login"
+        android:background="@color/colorPrimary"
+        android:layout_below="@+id/editTextLoginPassword"
+        android:layout_marginTop="59dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:textColor="#ffffffff" />
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="340dp"
+        android:layout_height="65dp"
+        android:text="@string/title_button_register"
+        android:background="@color/colorPrimary"
+        android:layout_below="@+id/buttonLogin"
+        android:layout_marginTop="20dp"
+        android:layout_alignLeft="@+id/buttonLogin"
+        android:layout_alignStart="@+id/buttonLogin"
+        android:textSize="15dp"
+        android:textColor="#ffffffff" />
+
+</RelativeLayout>
